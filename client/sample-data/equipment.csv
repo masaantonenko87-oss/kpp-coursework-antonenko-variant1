@@ -1,0 +1,5 @@
+inventory_number;name;criticality
+
+INV-001;ПК Dell OptiPlex;80
+INV-002;Принтер HP LaserJet;50
+INV-003;Комутатор Cisco;95

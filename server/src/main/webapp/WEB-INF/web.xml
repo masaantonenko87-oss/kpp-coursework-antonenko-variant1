@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+
+    <!-- Сервлет категорій -->
+    <servlet>
+        <servlet-name>CategoryServlet</servlet-name>
+        <servlet-class>ua.edu.nupp.kpp.server.CategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryServlet</servlet-name>
+        <url-pattern>/categories</url-pattern>
+    </servlet-mapping>
+
+    <!-- Сервлет користувачів -->
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>ua.edu.nupp.kpp.server.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/users</url-pattern>
+    </servlet-mapping>
+
+    <!-- Сервлет обладнання -->
+    <servlet>
+        <servlet-name>EquipmentServlet</servlet-name>
+        <servlet-class>ua.edu.nupp.kpp.server.EquipmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EquipmentServlet</servlet-name>
+        <url-pattern>/equipment</url-pattern>
+    </servlet-mapping>
+
+    <!-- Сервлет заявок -->
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>ua.edu.nupp.kpp.server.RequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/requests</url-pattern>
+    </servlet-mapping>
+
+</web-app>
